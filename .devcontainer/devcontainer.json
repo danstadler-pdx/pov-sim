@@ -1,5 +1,5 @@
 {
-  "name": "default codespace",
+  "name": "my dev container",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {}
 }
