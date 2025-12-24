@@ -57,6 +57,7 @@ services:
       - CLOUD_OTLP_PASSWORD=${CLOUD_OTLP_PASSWORD}
     volumes:
       - ./alloy/config.alloy:/etc/alloy/config.alloy
+      # - ./alloy/config2.alloy:/etc/alloy/config.alloy
     command: [
       "run",
       "--server.http.listen-addr=0.0.0.0:12345",
